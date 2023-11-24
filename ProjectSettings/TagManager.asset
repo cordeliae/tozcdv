@@ -9,6 +9,8 @@ TagManager:
   - coin
   - death
   - door
+  - next
+  - next2
   layers:
   - Default
   - TransparentFX

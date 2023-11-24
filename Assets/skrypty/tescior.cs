@@ -77,8 +77,18 @@ public class tescior : MonoBehaviour
         {
             other.GetComponent<Animator>().SetTrigger("Opening");
         }
-       
-  
+        if (other.gameObject.CompareTag("next"))
+        {
+            SceneManager.LoadScene(2);
+            //Debug.Log("Next Level");
+        }
+        if (other.gameObject.CompareTag("next2"))
+        {
+            SceneManager.LoadScene(3);
+            //Debug.Log("Next Level");
+        }
+
+
 
     }
     private void Start()
