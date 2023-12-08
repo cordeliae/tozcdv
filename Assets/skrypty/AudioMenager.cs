@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class AudioMenager : MonoBehaviour
 {
-    [SerializeField] AudioSource musicSource;
+    [SerializeField] AudioSource musicSource;//to jest od muzyki ze mozna dodac nutke
     
 
-    public AudioClip background;
+    public AudioClip background;//i tam mozna dodac 
 
     private void Start()
     {
