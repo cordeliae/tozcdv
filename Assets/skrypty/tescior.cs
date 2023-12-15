@@ -93,7 +93,7 @@ public class tescior : MonoBehaviour
     }
     private void Start()//to ogolnie ma na samym poczatku po wystartowaniu gry sie za³adowac 
     {
-        Physics.gravity = new Vector3(0, -100, 0);//tutaj dodawalam grawitacje zeby ziomek troche szybciej spadal
+        Physics.gravity = new Vector3(0, -80, 0);//tutaj dodawalam grawitacje zeby ziomek troche szybciej spadal
         CoinManager.coinCounter = 0;//no to na poczatku na 0 ustawia ten licznik
     }
      
@@ -102,5 +102,6 @@ public class tescior : MonoBehaviour
         coins -= p;//czyli no jak sie wyda te coinsy w sklepie to sie redukuja
         coinText.text = coins.ToString();//i to sprawia ze to sie pokazuje z tym teksie do gory zredukowane
     }
+    
  
 }
